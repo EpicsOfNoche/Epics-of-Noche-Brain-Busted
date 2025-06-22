@@ -444,7 +444,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 43edb8716f256f94691ff4d006eaf25b, type: 3}
   imageHolder: {fileID: 1369215890}
 --- !u!114 &18734395
 MonoBehaviour:
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 556999963}
 --- !u!114 &77203054
 MonoBehaviour:
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 43edb8716f256f94691ff4d006eaf25b, type: 3}
   imageHolder: {fileID: 1719450158}
 --- !u!114 &80062193
 MonoBehaviour:
@@ -1445,7 +1445,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 1034329780}
 --- !u!114 &86929242
 MonoBehaviour:
@@ -1546,7 +1546,7 @@ MonoBehaviour:
   delay: 0.15
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: d82345d8b507a164486ed2df3be45dc2, type: 3}
   imageHolder: {fileID: 542719587}
 --- !u!114 &88566091
 MonoBehaviour:
@@ -2233,7 +2233,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: de63ef82065b2674b927c4ff8ea4cdc6, type: 3}
   imageHolder: {fileID: 1926647187}
 --- !u!114 &157389465
 MonoBehaviour:
@@ -2334,7 +2334,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: ee1731e845654eb448a30fc6a3a255ec, type: 3}
+  characterSprite: {fileID: 21300000, guid: 99b09d8abd77b5c43b3da00c3b930ba5, type: 3}
   imageHolder: {fileID: 540094261}
 --- !u!114 &162027249
 MonoBehaviour:
@@ -2435,7 +2435,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: ee1731e845654eb448a30fc6a3a255ec, type: 3}
+  characterSprite: {fileID: 21300000, guid: 99b09d8abd77b5c43b3da00c3b930ba5, type: 3}
   imageHolder: {fileID: 233230454}
 --- !u!114 &180162617
 MonoBehaviour:
@@ -2667,7 +2667,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 5094fa50d70c8cc43b599c548cb90b92, type: 3}
   imageHolder: {fileID: 901101474}
 --- !u!114 &193050692
 MonoBehaviour:
@@ -7793,7 +7793,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: ee1731e845654eb448a30fc6a3a255ec, type: 3}
+  characterSprite: {fileID: 21300000, guid: 99b09d8abd77b5c43b3da00c3b930ba5, type: 3}
   imageHolder: {fileID: 1870316342}
 --- !u!114 &219777139
 MonoBehaviour:
@@ -8025,7 +8025,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 5094fa50d70c8cc43b599c548cb90b92, type: 3}
   imageHolder: {fileID: 1382696324}
 --- !u!114 &230579243
 MonoBehaviour:
@@ -8984,7 +8984,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 1094965440}
 --- !u!114 &272719241
 MonoBehaviour:
@@ -14566,7 +14566,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 5094fa50d70c8cc43b599c548cb90b92, type: 3}
   imageHolder: {fileID: 1120407311}
 --- !u!114 &307632170
 MonoBehaviour:
@@ -15940,7 +15940,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 1637623889}
 --- !u!114 &398374911
 MonoBehaviour:
@@ -21368,7 +21368,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 1989204336}
 --- !u!114 &428551836
 MonoBehaviour:
@@ -21889,7 +21889,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 43edb8716f256f94691ff4d006eaf25b, type: 3}
   imageHolder: {fileID: 1379471369}
 --- !u!114 &462934914
 MonoBehaviour:
@@ -22684,7 +22684,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: e84eef5e07e25774e98f9225e4cea200, type: 3}
   imageHolder: {fileID: 1681989036}
 --- !u!114 &521052247
 MonoBehaviour:
@@ -23423,7 +23423,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: de63ef82065b2674b927c4ff8ea4cdc6, type: 3}
   imageHolder: {fileID: 1333705054}
 --- !u!114 &586822826
 MonoBehaviour:
@@ -23723,7 +23723,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 5094fa50d70c8cc43b599c548cb90b92, type: 3}
   imageHolder: {fileID: 1347849562}
 --- !u!114 &595252476
 MonoBehaviour:
@@ -23899,7 +23899,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: b62813bc4a427d3418d9287c564fe10a, type: 3}
+  characterSprite: {fileID: 21300000, guid: e84eef5e07e25774e98f9225e4cea200, type: 3}
   imageHolder: {fileID: 1900066436}
 --- !u!114 &601562614
 MonoBehaviour:
@@ -25749,7 +25749,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: ee1731e845654eb448a30fc6a3a255ec, type: 3}
+  characterSprite: {fileID: 21300000, guid: 99b09d8abd77b5c43b3da00c3b930ba5, type: 3}
   imageHolder: {fileID: 121517722}
 --- !u!114 &771980012
 MonoBehaviour:
@@ -25912,7 +25912,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 393504664}
 --- !u!114 &815000031
 MonoBehaviour:
@@ -26729,7 +26729,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 5094fa50d70c8cc43b599c548cb90b92, type: 3}
   imageHolder: {fileID: 646086733}
 --- !u!114 &909070154
 MonoBehaviour:
@@ -27766,7 +27766,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 5094fa50d70c8cc43b599c548cb90b92, type: 3}
   imageHolder: {fileID: 430245737}
 --- !u!114 &990946135
 MonoBehaviour:
@@ -27867,7 +27867,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 99b09d8abd77b5c43b3da00c3b930ba5, type: 3}
   imageHolder: {fileID: 1883473532}
 --- !u!114 &1020442849
 MonoBehaviour:
@@ -28356,7 +28356,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 596348224}
 --- !u!114 &1061223962
 MonoBehaviour:
@@ -28637,7 +28637,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 99b09d8abd77b5c43b3da00c3b930ba5, type: 3}
   imageHolder: {fileID: 1168429014}
 --- !u!114 &1070887019
 MonoBehaviour:
@@ -28869,7 +28869,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 499787664}
 --- !u!114 &1073157494
 MonoBehaviour:
@@ -28970,7 +28970,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 99b09d8abd77b5c43b3da00c3b930ba5, type: 3}
   imageHolder: {fileID: 2102126470}
 --- !u!114 &1073608097
 MonoBehaviour:
@@ -29124,7 +29124,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 5094fa50d70c8cc43b599c548cb90b92, type: 3}
   imageHolder: {fileID: 1058169927}
 --- !u!114 &1085419670
 MonoBehaviour:
@@ -29548,7 +29548,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: d0d9623b2db210e4ab42ace0fc378262, type: 3}
   imageHolder: {fileID: 231037472}
 --- !u!114 &1104968089
 MonoBehaviour:
@@ -29790,7 +29790,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: d0d9623b2db210e4ab42ace0fc378262, type: 3}
   imageHolder: {fileID: 324830712}
 --- !u!114 &1119558057
 MonoBehaviour:
@@ -34857,7 +34857,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 768d04be6b1e5e44388ddf5377f52dbb, type: 3}
   imageHolder: {fileID: 2042303723}
 --- !u!114 &1134940828
 MonoBehaviour:
@@ -35106,7 +35106,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 1364148270}
 --- !u!114 &1164766845
 MonoBehaviour:
@@ -35774,7 +35774,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 768d04be6b1e5e44388ddf5377f52dbb, type: 3}
   imageHolder: {fileID: 2094620186}
 --- !u!114 &1245925813
 MonoBehaviour:
@@ -36428,7 +36428,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: e84eef5e07e25774e98f9225e4cea200, type: 3}
   imageHolder: {fileID: 725327044}
 --- !u!114 &1291659485
 MonoBehaviour:
@@ -39265,7 +39265,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: d82345d8b507a164486ed2df3be45dc2, type: 3}
   imageHolder: {fileID: 951479583}
 --- !u!114 &1433026955
 MonoBehaviour:
@@ -39953,7 +39953,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 2021768710}
 --- !u!114 &1467180484
 MonoBehaviour:
@@ -40541,7 +40541,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: de63ef82065b2674b927c4ff8ea4cdc6, type: 3}
   imageHolder: {fileID: 59582461}
 --- !u!114 &1512016556
 MonoBehaviour:
@@ -40697,7 +40697,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 43edb8716f256f94691ff4d006eaf25b, type: 3}
   imageHolder: {fileID: 1087835429}
 --- !u!114 &1524680149
 MonoBehaviour:
@@ -46185,7 +46185,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 13757bfabf8112f43bc2fe6e2feee2f2, type: 3}
   imageHolder: {fileID: 908083051}
 --- !u!114 &1548101116
 MonoBehaviour:
@@ -47540,7 +47540,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: ee1731e845654eb448a30fc6a3a255ec, type: 3}
+  characterSprite: {fileID: 21300000, guid: 99b09d8abd77b5c43b3da00c3b930ba5, type: 3}
   imageHolder: {fileID: 625060324}
 --- !u!114 &1711187000
 MonoBehaviour:
@@ -48306,7 +48306,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: ee1731e845654eb448a30fc6a3a255ec, type: 3}
+  characterSprite: {fileID: 21300000, guid: c10511d89c6ed9e4e82b5c66bd8e984e, type: 3}
   imageHolder: {fileID: 857886663}
 --- !u!114 &1742712471
 MonoBehaviour:
@@ -48608,7 +48608,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: d82345d8b507a164486ed2df3be45dc2, type: 3}
   imageHolder: {fileID: 1923754291}
 --- !u!114 &1757833454
 MonoBehaviour:
@@ -49010,7 +49010,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 40904468}
 --- !u!114 &1784184089
 MonoBehaviour:
@@ -49242,7 +49242,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: d82345d8b507a164486ed2df3be45dc2, type: 3}
   imageHolder: {fileID: 1427190549}
 --- !u!114 &1797393875
 MonoBehaviour:
@@ -50067,7 +50067,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: de63ef82065b2674b927c4ff8ea4cdc6, type: 3}
   imageHolder: {fileID: 889120669}
 --- !u!114 &1873039586
 MonoBehaviour:
@@ -50659,7 +50659,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 5094fa50d70c8cc43b599c548cb90b92, type: 3}
   imageHolder: {fileID: 1972556793}
 --- !u!114 &1905014333
 MonoBehaviour:
@@ -51220,7 +51220,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 2859995e72bad4245b791334d06ab7b9, type: 3}
   imageHolder: {fileID: 1436925799}
 --- !u!114 &1934175677
 MonoBehaviour:
@@ -51556,7 +51556,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 99b09d8abd77b5c43b3da00c3b930ba5, type: 3}
   imageHolder: {fileID: 1472129966}
 --- !u!114 &1940710271
 MonoBehaviour:
@@ -51791,7 +51791,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 1254182369}
 --- !u!114 &1960289812
 MonoBehaviour:
@@ -52567,7 +52567,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: 48ba3a4c9202ee842959a3e06832cc0e, type: 3}
-  characterSprite: {fileID: 21300000, guid: cc3c57ef7fe7087498df549b10fdea46, type: 3}
+  characterSprite: {fileID: 21300000, guid: 26fab96176c326b40987ab05017982e6, type: 3}
   imageHolder: {fileID: 604017993}
 --- !u!114 &2014448195
 MonoBehaviour:
@@ -57780,7 +57780,7 @@ MonoBehaviour:
   delay: 0.05
   delayBetweenLines: 0
   sound: {fileID: 8300000, guid: f23f6096c2fb408498e04d6c383dd645, type: 3}
-  characterSprite: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  characterSprite: {fileID: 21300000, guid: 13757bfabf8112f43bc2fe6e2feee2f2, type: 3}
   imageHolder: {fileID: 2135887226}
 --- !u!114 &2030760291
 MonoBehaviour:
