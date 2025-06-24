@@ -640,7 +640,7 @@ namespace PLAYERTWO.PlatformerProject
     [System.Serializable]
 	public class PlayerUpgradeStats
 	{
-		public List<EPlayerUpgrade> boughtUpgrades;
+		public List<EPlayerUpgrade> boughtUpgrades = new List<EPlayerUpgrade>();
 
 		public void AddUpgrade(EPlayerUpgrade upgrade)
 		{

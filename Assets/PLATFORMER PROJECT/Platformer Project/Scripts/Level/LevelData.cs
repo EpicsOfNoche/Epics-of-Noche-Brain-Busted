@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace PLAYERTWO.PlatformerProject
@@ -8,7 +9,8 @@ namespace PLAYERTWO.PlatformerProject
 	{
 		public bool locked;
 		public int coins;
-		public float time;
+		public List<string> collectedCoins;
+        public float time;
 		public bool[] stars;
 		public int beatenTimes;
 

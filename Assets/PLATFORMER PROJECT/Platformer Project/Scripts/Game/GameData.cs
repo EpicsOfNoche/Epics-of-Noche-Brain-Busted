@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -30,7 +31,8 @@ namespace PLAYERTWO.PlatformerProject
 						{
 							return new LevelData()
 							{
-								locked = level.locked,
+								collectedCoins = new List<string>(),
+                                locked = level.locked,
 								stars = new bool[Game.instance.starsPerLevel],
 							};
 						}
