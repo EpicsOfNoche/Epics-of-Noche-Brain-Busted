@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace PLAYERTWO.PlatformerProject
@@ -35,6 +36,9 @@ namespace PLAYERTWO.PlatformerProject
 
 		[Tooltip("The maximum speed the Player can reach when falling.")]
 		public float gravityTopSpeed = 50f;
+
+		[Header("Health")]
+		public int maxHealth = 3;
 
 		[Header("Pick'n Throw Stats")]
 		[Tooltip("If true, the Player can pick up objects.")]
@@ -577,5 +581,71 @@ namespace PLAYERTWO.PlatformerProject
 
 		[Tooltip("Force applied to the Player when dashing while grinding.")]
 		public float grindDashForce = 25f;
+	}
+
+    /*[System.Serializable]
+    public class PlayerUpgrade
+	{
+		public EPlayerUpgrade upgradeType;
+
+		[Header("Health")]
+		public bool maxHealth;
+        public int extraMaxHealth;
+
+        [Header("Motion")]
+        public bool fasterRunning;
+		public float extraTopSpeed;
+
+        [Header("Jumping")]
+        public bool extraJumps;
+        public float extraJumpsCount;
+
+        [Header("Dashing")]
+		public bool furtherDash;
+		public float extraDashForce;
+
+		[Space]
+		public bool extraAirDashes;
+		public int extraAirDashesCount;
+    }
+
+    public enum EPlayerUpgrade
+	{
+		MaxHealth,
+        FasterRunning,
+		FurtherDash,
+        ExtraDashes,
+        ExtraJump,
+        HigherAirSpin,
+		BetterGlider
+    }*/
+
+    public enum EPlayerUpgrade
+    {
+        MaxHealth1,
+        MaxHealth2,
+        MaxHealth3,
+
+        FasterRunning,
+
+        TripleJump,
+
+        FurtherDash,
+        SecondAirDash,
+
+        HigherAirSpin,
+        BetterGlider
+    }
+
+    [System.Serializable]
+	public class PlayerUpgradeStats
+	{
+		public List<EPlayerUpgrade> boughtUpgrades;
+
+		public void AddUpgrade(EPlayerUpgrade upgrade)
+		{
+			if (boughtUpgrades.Contains(upgrade)) return;
+			boughtUpgrades.Add(upgrade);
+		}
 	}
 }

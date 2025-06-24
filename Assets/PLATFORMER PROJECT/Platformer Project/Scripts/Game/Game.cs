@@ -41,6 +41,8 @@ namespace PLAYERTWO.PlatformerProject
 		protected DateTime m_createdAt;
 		protected DateTime m_updatedAt;
 
+		protected PlayerUpgradeStats m_playerUpgradeStats;
+
 		/// <summary>
 		/// The amount of Level retries.
 		/// </summary>
@@ -111,7 +113,9 @@ namespace PLAYERTWO.PlatformerProject
 			m_createdAt = DateTime.Parse(data.createdAt);
 			m_updatedAt = DateTime.Parse(data.updatedAt);
 
-			for (int i = 0; i < data.levels.Length; i++)
+			m_playerUpgradeStats = data.playerUpgradeStats;
+
+            for (int i = 0; i < data.levels.Length; i++)
 			{
 				if (i >= levels.Count)
 					break;
@@ -215,7 +219,8 @@ namespace PLAYERTWO.PlatformerProject
 				levels = LevelsData(),
 				createdAt = m_createdAt.ToString(),
 				updatedAt = DateTime.UtcNow.ToString(),
-			};
+				playerUpgradeStats = m_playerUpgradeStats,
+            };
 		}
 	}
 }

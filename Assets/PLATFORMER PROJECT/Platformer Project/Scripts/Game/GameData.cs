@@ -12,10 +12,12 @@ namespace PLAYERTWO.PlatformerProject
 		public string createdAt;
 		public string updatedAt;
 
-		/// <summary>
-		/// Returns a new instance of Game Data at runtime.
-		/// </summary>
-		public static GameData Create()
+		public PlayerUpgradeStats playerUpgradeStats;
+
+        /// <summary>
+        /// Returns a new instance of Game Data at runtime.
+        /// </summary>
+        public static GameData Create()
 		{
 			return new GameData()
 			{
@@ -34,13 +36,14 @@ namespace PLAYERTWO.PlatformerProject
 						}
 					)
 					.ToArray(),
-			};
+                playerUpgradeStats = new PlayerUpgradeStats(),
+            };
 		}
 
-		/// <summary>
-		/// Returns the sum of Stars collected in all Levels.
-		/// </summary>
-		public virtual int TotalStars() =>
+        /// <summary>
+        /// Returns the sum of Stars collected in all Levels.
+        /// </summary>
+        public virtual int TotalStars() =>
 			levels.Aggregate(0, (acc, level) => acc + level.CollectedStars());
 
 		/// <summary>
