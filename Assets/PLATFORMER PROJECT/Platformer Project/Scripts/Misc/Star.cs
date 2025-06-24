@@ -15,10 +15,10 @@ namespace PLAYERTWO.PlatformerProject
 				gameObject.SetActive(false);
 		}
 
-		public override void Collect(Player player)
+		public override void Collect(Player player, bool simpleCollect = false)
 		{
 			m_score.CollectStar(index);
-			base.Collect(player);
+			base.Collect(player, simpleCollect);
 		}
 
 		protected override void Awake()

@@ -11,7 +11,7 @@ namespace PLAYERTWO.PlatformerProject
 		public bool collectOnContact = true;
 		public bool resetTransform;
 		public int times = 1;
-		public float ghostingDuration = 0.5f;
+		private float ghostingDuration = 0f;
 		public GameObject display;
 		public AudioClip clip;
 		public ParticleSystem particle;
@@ -46,8 +46,8 @@ namespace PLAYERTWO.PlatformerProject
 		protected Collider m_collider;
 		protected AudioSource m_audio;
 
-		protected bool m_vanished;
-		protected bool m_ghosting = true;
+		protected bool m_vanished = false;
+		protected bool m_ghosting = false;
 		protected float m_elapsedLifeTime;
 		protected float m_elapsedGhostingTime;
 		protected Vector3 m_velocity;
@@ -146,13 +146,17 @@ namespace PLAYERTWO.PlatformerProject
 		/// The collection routine which is trigger the callbacks and activate the reactions.
 		/// </summary>
 		/// <param name="player">The Player which collected.</param>
-		protected virtual IEnumerator CollectRoutine(Player player)
+		protected virtual IEnumerator CollectRoutine(Player player, bool simpleCollect)
 		{
 			for (int i = 0; i < times; i++)
 			{
-				m_audio.Stop();
-				m_audio.PlayOneShot(clip);
-				onCollect.Invoke(player);
+				if (!simpleCollect)
+				{
+                    m_audio.Stop();
+                    m_audio.PlayOneShot(clip);
+                }
+
+                onCollect.Invoke(player);
 				yield return new WaitForSeconds(0.1f);
 			}
 		}
@@ -184,25 +188,25 @@ namespace PLAYERTWO.PlatformerProject
 		/// Triggers the collection of this Collectable.
 		/// </summary>
 		/// <param name="player">The Player which collected.</param>
-		public virtual void Collect(Player player)
+		public virtual void Collect(Player player, bool simpleCollect = false)
 		{
 			if (!m_vanished && !m_ghosting)
 			{
 				if (!hidden)
 				{
-					Vanish();
+                    Vanish();
 
-					if (particle != null)
+					if (!simpleCollect && particle != null)
 					{
 						particle.Play();
 					}
 				}
 				else
 				{
-					StartCoroutine(QuickShowRoutine());
+                    StartCoroutine(QuickShowRoutine());
 				}
 
-				StartCoroutine(CollectRoutine(player));
+                StartCoroutine(CollectRoutine(player, simpleCollect));
 			}
 		}
 
@@ -320,7 +324,7 @@ namespace PLAYERTWO.PlatformerProject
 			InitializeTransform();
 			InitializeDisplay();
 			InitializeVelocity();
-		}
+        }
 
 		protected virtual void Update()
 		{

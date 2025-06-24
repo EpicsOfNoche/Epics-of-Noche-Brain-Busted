@@ -1,21 +1,21 @@
 using PLAYERTWO.PlatformerProject;
 using UnityEngine;
 
+[RequireComponent(typeof(Collectable))]
 public class Coin : MonoBehaviour
 {
     public string ID { get; private set; }
+    private Collectable collectable;
+
+    private void Awake()
+    {
+        collectable = GetComponent<Collectable>();
+    }
 
     private void Start()
     {
         ID = GenerateID();
-        if (Game.instance.ToData().levels[Game.instance.GetCurrentLevelIndex()].collectedCoins.Contains(ID))
-        {
-            gameObject.SetActive(false);
-        }
-        else
-        {
-            gameObject.SetActive(true);
-        }
+        if (Game.instance.ToData().levels[Game.instance.GetCurrentLevelIndex()].collectedCoins.Contains(ID)) collectable.Collect(FindAnyObjectByType<Player>(), true);
     }
 
     private string GenerateID()
