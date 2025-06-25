@@ -55,7 +55,6 @@ namespace PLAYERTWO.PlatformerProject
 			m_score = LevelScore.instance;
 			m_score.OnScoreLoaded.AddListener(() =>
 			{
-				m_score.OnCoinsSet.AddListener(UpdateCoins);
 				m_score.OnStarsSet.AddListener(UpdateStars);
 				m_game.OnRetriesSet.AddListener(UpdateRetries);
 				m_player.health.onChange.AddListener(UpdateHealth);
@@ -67,7 +66,12 @@ namespace PLAYERTWO.PlatformerProject
 			);
 		}
 
-		protected virtual void Start()
+        private void Update()
+        {
+            UpdateCoins(m_game.m_totalCoins);
+        }
+
+        protected virtual void Start()
 		{
 			StartCoroutine(TimerRoutine());
 		}
@@ -130,7 +134,7 @@ namespace PLAYERTWO.PlatformerProject
 		/// </summary>
 		public virtual void Refresh()
 		{
-			UpdateCoins(m_score.coins);
+			UpdateCoins(m_game.m_totalCoins);
 			UpdateRetries(m_game.retries);
 			UpdateHealth();
 			UpdateStars(m_score.stars);

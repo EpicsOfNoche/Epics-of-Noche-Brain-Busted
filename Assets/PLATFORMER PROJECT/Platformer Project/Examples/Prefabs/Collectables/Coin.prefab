@@ -64,7 +64,6 @@ MonoBehaviour:
   collectOnContact: 1
   resetTransform: 0
   times: 1
-  ghostingDuration: 0.5
   display: {fileID: 72184741249350940}
   clip: {fileID: 8300000, guid: 1170fdadbd6bf0b46b820aae14f65e17, type: 3}
   particle: {fileID: 6940178250071472060}
@@ -101,7 +100,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1000726228457877882}
         m_TargetAssemblyTypeName: Coin, Assembly-CSharp
         m_MethodName: Collect
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

@@ -13,6 +13,7 @@ namespace PLAYERTWO.PlatformerProject
 		public string createdAt;
 		public string updatedAt;
 
+		public int totalCoins;
 		public PlayerUpgradeStats playerUpgradeStats;
 
         /// <summary>
@@ -38,6 +39,8 @@ namespace PLAYERTWO.PlatformerProject
 						}
 					)
 					.ToArray(),
+
+				totalCoins = 0,
                 playerUpgradeStats = new PlayerUpgradeStats(),
             };
 		}
@@ -47,15 +50,6 @@ namespace PLAYERTWO.PlatformerProject
         /// </summary>
         public virtual int TotalStars() =>
 			levels.Aggregate(0, (acc, level) => acc + level.CollectedStars());
-
-		/// <summary>
-		/// Returns the sum of Coins collected in all levels.
-		/// </summary>
-		/// <returns></returns>
-		public virtual int TotalCoins()
-		{
-			return levels.Aggregate(0, (acc, level) => acc + level.coins);
-		}
 
 		/// <summary>
 		/// Returns a JSON string representation of this Game Data.
