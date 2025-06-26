@@ -1,15 +1,17 @@
 using PLAYERTWO.PlatformerProject;
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class UpgradeMenu : MonoBehaviour
 {
-    public static event Action<Base_PlayerUpgradeSO> OnUpgradeBought;
-
     private RectTransform rectTransform;
+    private Vector2 targetPosition;
 
     private Vector2 showPosition;
     private Vector2 hidePosition;
+
+    private bool showing;
 
     private void Awake()
     {
@@ -28,30 +30,27 @@ public class UpgradeMenu : MonoBehaviour
         LevelPauser.instance.OnUnpause.RemoveListener(Hide);
     }
 
-    public bool BuyUpgrade(Base_PlayerUpgradeSO upgradeSO)
+    public void ToggleMenu()
     {
-        if (PlayerStatsManager.instance.BuyUpgrade(upgradeSO))
-        {
-            Debug.Log($"Bought upgrade: {upgradeSO.upgradeName}");
+        if (showing) Hide();
+        else Show();
 
-            OnUpgradeBought?.Invoke(upgradeSO);
-            return true;
-        }
-        else
-        {
-            Debug.Log($"Buying upgrade failed: {upgradeSO.upgradeName}");
-            return false;
-        }
+        rectTransform.anchoredPosition = targetPosition;
     }
 
     public void Show()
     {
-        rectTransform.anchoredPosition = showPosition;
+        gameObject.SetActive(true);
+        EventSystem.current.SetSelectedGameObject(GetComponentsInChildren<UpgradeOption>()[0].buy_Button.gameObject);
 
-        GetComponentsInChildren<UpgradeOption>()[0].buy_Button.Select();
+        showing = true;
+        targetPosition = showPosition;
     }
     public void Hide()
     {
-        rectTransform.anchoredPosition = hidePosition;
+        gameObject.SetActive(false);
+
+        showing = false;
+        targetPosition = hidePosition;
     }
 }

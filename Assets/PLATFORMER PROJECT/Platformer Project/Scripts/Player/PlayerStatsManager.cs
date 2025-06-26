@@ -8,37 +8,48 @@ namespace PLAYERTWO.PlatformerProject
 	public class PlayerStatsManager : EntityStatsManager<PlayerStats>
 	{
         public static PlayerStatsManager instance { get; private set; }
-
         private Game m_game => Game.instance;
 
-        private void Awake()
+        public static event Action<Base_PlayerUpgradeSO> OnUpgradeBought;
+
+        protected override void Awake()
         {
+            base.Awake();
             instance = this;
         }
 
-        protected override void Start()
+        protected virtual void Start()
         {
-			base.Start();
 			UpdatePlayerStats();
         }
 
         public bool BuyUpgrade(Base_PlayerUpgradeSO playerUpgradeSO)
         {
-            var boughtUpgrades = m_game.m_playerUpgradeStats.boughtUpgrades;
-            if (!boughtUpgrades.Contains(playerUpgradeSO.upgradeID) && m_game.m_totalCoins >= playerUpgradeSO.upgradeCost)
+            var boughtUpgrades = m_game.ToData().playerUpgradeStats.boughtUpgrades;
+            if (!WasBoughtAlready(playerUpgradeSO) && m_game.ToData().totalCoins >= playerUpgradeSO.upgradeCost)
             {
-                m_game.m_totalCoins -= playerUpgradeSO.upgradeCost;
-                boughtUpgrades.Add(playerUpgradeSO.upgradeID);
+                //Remove coins from the total coins
+                m_game.RemoveFromTotalCoins(playerUpgradeSO.upgradeCost);
 
+                //Add the upgrade to save file and update the stats
+                boughtUpgrades.Add(playerUpgradeSO.upgradeID);
                 UpdatePlayerStats();
 
+                Debug.Log($"Bought upgrade: {playerUpgradeSO.upgradeName}");
+                OnUpgradeBought?.Invoke(playerUpgradeSO);
                 return true;
             }
 
+            Debug.Log($"Buying upgrade failed: {playerUpgradeSO.upgradeName}");
             return false;
         }
 
-		private void UpdatePlayerStats()
+        public bool WasBoughtAlready(Base_PlayerUpgradeSO playerUpgradeSO)
+        {
+            return m_game.ToData().playerUpgradeStats.boughtUpgrades.Contains(playerUpgradeSO.upgradeID);
+        }
+
+        private void UpdatePlayerStats()
 		{
             PlayerStats playerStats = Instantiate(original);
 			UpgradeStats(playerStats);
@@ -48,7 +59,7 @@ namespace PLAYERTWO.PlatformerProject
 
 		private void UpgradeStats(PlayerStats stats)
 		{
-            var boughtUpgrades = m_game.m_playerUpgradeStats.boughtUpgrades;
+            var boughtUpgrades = m_game.ToData().playerUpgradeStats.boughtUpgrades;
 
             //For each bought upgrade, apply the upgrade to the stats
             Resources.LoadAll<Base_PlayerUpgradeSO>("Player Upgrades").Where(upgrade => boughtUpgrades.Contains(upgrade.upgradeID))

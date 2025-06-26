@@ -92,7 +92,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.35
+  m_fontSize: 18
   m_fontSizeBase: 21.1
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -146,6 +146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8924100868177804943}
   - component: {fileID: 5756583840360605691}
+  - component: {fileID: 7295492911127356399}
   - component: {fileID: 8188735366836316563}
   - component: {fileID: 9202970680854034529}
   m_Layer: 0
@@ -183,6 +184,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2170555647597275717}
   m_CullTransparentMesh: 1
+--- !u!114 &7295492911127356399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2170555647597275717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 827b06e1c0c17754aa742f32bb584520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useTextColors: 1
+  normalColor: {r: 0.06666667, g: 0.06666667, b: 0.06666667, a: 1}
+  highlightedColor: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 1}
+  pressedColor: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 1}
+  useScale: 1
+  scaleMultiplier: 1.1
+  scaleDuration: 0.1
+  useClickAudio: 1
+  useHighlightAudio: 1
+  audioType: 0
 --- !u!114 &8188735366836316563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -235,9 +258,9 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.28152826, b: 0, a: 1}
+    m_PressedColor: {r: 1, g: 0.28235295, b: 0, a: 1}
+    m_SelectedColor: {r: 1, g: 0.28235295, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -560,7 +583,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.2
+  m_fontSize: 9.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -696,11 +719,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
+  m_fontSize: 22.35
   m_fontSizeBase: 24
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 9.19
   m_fontSizeMax: 72
   m_fontStyle: 16
   m_HorizontalAlignment: 2
@@ -839,3 +862,5 @@ MonoBehaviour:
   cost_Text: {fileID: 5722802841768489630}
   upgrade_Image: {fileID: 6460840794330559485}
   buy_Button: {fileID: 9202970680854034529}
+  canBuyText: Buy
+  cannotBuyText: Already Bought

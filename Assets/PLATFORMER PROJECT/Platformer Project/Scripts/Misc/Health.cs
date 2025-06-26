@@ -34,7 +34,7 @@ namespace PLAYERTWO.PlatformerProject
 			{
 				var last = m_currentHealth;
 
-				if (value != last)
+                if (value != last)
 				{
 					m_currentHealth = Mathf.Clamp(value, 0, max);
 					onChange?.Invoke();
@@ -83,6 +83,6 @@ namespace PLAYERTWO.PlatformerProject
 		/// </summary>
 		public virtual void ResetHealth() => current = initial;
 
-		protected virtual void Awake() => current = initial;
+		protected virtual void Start() => current = initial;
 	}
 }

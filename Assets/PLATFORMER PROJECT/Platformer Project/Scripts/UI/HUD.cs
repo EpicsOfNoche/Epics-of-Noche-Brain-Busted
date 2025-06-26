@@ -68,7 +68,7 @@ namespace PLAYERTWO.PlatformerProject
 
         private void Update()
         {
-            UpdateCoins(m_game.m_totalCoins);
+            UpdateCoins(m_game.ToData().totalCoins);
         }
 
         protected virtual void Start()
@@ -134,7 +134,7 @@ namespace PLAYERTWO.PlatformerProject
 		/// </summary>
 		public virtual void Refresh()
 		{
-			UpdateCoins(m_game.m_totalCoins);
+			UpdateCoins(m_game.ToData().totalCoins);
 			UpdateRetries(m_game.retries);
 			UpdateHealth();
 			UpdateStars(m_score.stars);

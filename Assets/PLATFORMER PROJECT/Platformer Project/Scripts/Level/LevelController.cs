@@ -16,13 +16,7 @@ namespace PLAYERTWO.PlatformerProject
 		public virtual void Respawn(bool consumeRetries) => m_respawner.Respawn(consumeRetries);
 		public virtual void Restart() => m_respawner.Restart();
 
-		public virtual void AddCoins(int amount)
-		{
-			m_score.coins += amount;
-            Game.instance.m_totalCoins += amount;
-
-            Debug.Log($"Total Coins: {Game.instance.m_totalCoins}");
-        }
+		public virtual void AddCoins(int amount) => Game.instance.AddTotalCoins(amount);
         public virtual void CollectStar(int index) => m_score.CollectStar(index);
 		public virtual void ConsolidateScore() => m_score.Consolidate();
 

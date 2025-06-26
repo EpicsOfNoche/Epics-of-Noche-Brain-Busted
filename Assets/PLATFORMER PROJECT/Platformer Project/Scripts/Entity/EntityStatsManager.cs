@@ -34,7 +34,7 @@ namespace PLAYERTWO.PlatformerProject
             }
         }
 
-        protected virtual void Start()
+        protected virtual void Awake()
 		{
 			if (stats.Length > 0)
 			{

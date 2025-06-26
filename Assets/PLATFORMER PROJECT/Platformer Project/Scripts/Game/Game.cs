@@ -41,8 +41,8 @@ namespace PLAYERTWO.PlatformerProject
 		protected DateTime m_createdAt;
 		protected DateTime m_updatedAt;
 
-		public int m_totalCoins;
-        public PlayerUpgradeStats m_playerUpgradeStats;
+		protected int m_totalCoins;
+        protected PlayerUpgradeStats m_playerUpgradeStats;
 
 		/// <summary>
 		/// The amount of Level retries.
@@ -199,6 +199,19 @@ namespace PLAYERTWO.PlatformerProject
 				levels[index].locked = false;
 			}
 		}
+
+		private LevelScore m_score => LevelScore.instance;
+
+        public void AddTotalCoins(int amount)
+		{
+            m_score.coins += amount;
+            m_totalCoins += amount;
+        }
+
+		public void RemoveFromTotalCoins(int amount)
+		{
+			m_totalCoins = Mathf.Max(0, m_totalCoins - amount);
+        }
 
 		/// <summary>
 		/// Resets the retries counter to its initial value.
