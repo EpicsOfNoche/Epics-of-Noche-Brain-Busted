@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: FasterRunning
   m_EditorClassIdentifier: 
   upgradeID: run1
-  upgradeName: Faster Running
-  upgradeDescription: You run faster
-  upgradeCost: 5
-  upgradeIcon: {fileID: 21300000, guid: 2a8a0c7fec989bf4384def3eca11a8ff, type: 3}
-  runAccelerationIncrease: 3
-  runTopSpeedIncrease: 20
+  upgradeName: Lightning Boots
+  upgradeDescription: You run much faster!
+  upgradeCost: 100
+  upgradeIcon: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  runAccelerationIncrease: 2
+  runTopSpeedIncrease: 10

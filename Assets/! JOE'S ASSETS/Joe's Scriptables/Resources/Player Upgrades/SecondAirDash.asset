@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: SecondAirDash
   m_EditorClassIdentifier: 
   upgradeID: airDash1
-  upgradeName: Second Air Dash
-  upgradeDescription: Gives you a second air dash
-  upgradeCost: 30
-  upgradeIcon: {fileID: 21300000, guid: a0fc8ecfd214553419fc72a1307340f7, type: 3}
+  upgradeName: Thunder step
+  upgradeDescription: You gain a second air dash.
+  upgradeCost: 200
+  upgradeIcon: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
   allowedAirDashesIncrease: 1

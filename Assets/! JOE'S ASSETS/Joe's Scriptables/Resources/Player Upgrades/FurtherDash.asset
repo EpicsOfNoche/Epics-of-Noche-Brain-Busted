@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: FurtherDash
   m_EditorClassIdentifier: 
   upgradeID: dash1
-  upgradeName: Further Dash
-  upgradeDescription: Your dash gets you further
-  upgradeCost: 15
-  upgradeIcon: {fileID: 21300000, guid: f9a4e5305b432b046a368f06b66e025c, type: 3}
+  upgradeName: Hurricane Dash
+  upgradeDescription: You can dash twice as far.
+  upgradeCost: 300
+  upgradeIcon: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
   dashDurationIncrease: 0.2
   dashForceIncrease: 10

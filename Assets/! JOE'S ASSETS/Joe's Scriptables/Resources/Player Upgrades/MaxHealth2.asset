@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: MaxHealth2
   m_EditorClassIdentifier: 
   upgradeID: maxHealth2
-  upgradeName: Max Health++
-  upgradeDescription: This upgrade gives you one more max health point.
-  upgradeCost: 40
+  upgradeName: Max HP ++
+  upgradeDescription: Increases your max HP by 1.
+  upgradeCost: 100
   upgradeIcon: {fileID: 21300000, guid: dfb847232b198c842b4716c39acbd9bd, type: 3}
   maxHealthIncrease: 1

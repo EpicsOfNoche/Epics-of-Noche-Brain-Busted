@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: BetterGlider
   m_EditorClassIdentifier: 
   upgradeID: glider1
-  upgradeName: Better Glider
-  upgradeDescription: Your glider makes you fall slower, and now you can rotate faster.
-  upgradeCost: 50
-  upgradeIcon: {fileID: 21300000, guid: ff3e0d616216a5d4bb481dabe761a9a1, type: 3}
+  upgradeName: Tsunami Glider
+  upgradeDescription: Your glider falls slower and rotates faster.
+  upgradeCost: 100
+  upgradeIcon: {fileID: 21300000, guid: f2562a0917de7d64cad9510f7d370192, type: 3}
   glideFallSpeedDecrease: 0.5
-  glidingRotationSpeedIncrease: 30
+  glidingRotationSpeedIncrease: 50

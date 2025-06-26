@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: HigherAirSpin
   m_EditorClassIdentifier: 
   upgradeID: airSpin1
-  upgradeName: Higher Air Spin
-  upgradeDescription: Your air spin will get you much higher!
-  upgradeCost: 70
-  upgradeIcon: {fileID: 21300000, guid: 0272d3244282b50479e6331669cf8340, type: 3}
+  upgradeName: Storm Spin
+  upgradeDescription: Your air spin attacks launch you higher up.
+  upgradeCost: 200
+  upgradeIcon: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
   airSpinUpwardForceIncrease: 5
   maxAirSpinsIncrease: 0
