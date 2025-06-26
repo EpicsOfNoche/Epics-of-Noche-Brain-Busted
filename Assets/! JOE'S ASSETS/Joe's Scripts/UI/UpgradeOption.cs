@@ -3,5 +3,10 @@ using UnityEngine;
 
 public class UpgradeOption : MonoBehaviour
 {
-    public EPlayerUpgrade EPlayerUpgrade;
+    public Base_PlayerUpgradeSO playerUpgradeSO;
+
+    public void Buy()
+    {
+        GetComponentInParent<UpgradeMenu>().BuyUpgrade(playerUpgradeSO);
+    }
 }

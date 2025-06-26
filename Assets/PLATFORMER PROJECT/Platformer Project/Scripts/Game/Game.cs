@@ -42,7 +42,7 @@ namespace PLAYERTWO.PlatformerProject
 		protected DateTime m_updatedAt;
 
 		public int m_totalCoins;
-        protected PlayerUpgradeStats m_playerUpgradeStats;
+        public PlayerUpgradeStats m_playerUpgradeStats;
 
 		/// <summary>
 		/// The amount of Level retries.

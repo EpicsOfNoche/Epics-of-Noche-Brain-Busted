@@ -583,66 +583,12 @@ namespace PLAYERTWO.PlatformerProject
 		public float grindDashForce = 25f;
 	}
 
-    /*[System.Serializable]
-    public class PlayerUpgrade
-	{
-		public EPlayerUpgrade upgradeType;
-
-		[Header("Health")]
-		public bool maxHealth;
-        public int extraMaxHealth;
-
-        [Header("Motion")]
-        public bool fasterRunning;
-		public float extraTopSpeed;
-
-        [Header("Jumping")]
-        public bool extraJumps;
-        public float extraJumpsCount;
-
-        [Header("Dashing")]
-		public bool furtherDash;
-		public float extraDashForce;
-
-		[Space]
-		public bool extraAirDashes;
-		public int extraAirDashesCount;
-    }
-
-    public enum EPlayerUpgrade
-	{
-		MaxHealth,
-        FasterRunning,
-		FurtherDash,
-        ExtraDashes,
-        ExtraJump,
-        HigherAirSpin,
-		BetterGlider
-    }*/
-
-    public enum EPlayerUpgrade
-    {
-        MaxHealth1,
-        MaxHealth2,
-        MaxHealth3,
-
-        FasterRunning,
-
-        TripleJump,
-
-        FurtherDash,
-        SecondAirDash,
-
-        HigherAirSpin,
-        BetterGlider
-    }
-
     [System.Serializable]
 	public class PlayerUpgradeStats
 	{
-		public List<EPlayerUpgrade> boughtUpgrades = new List<EPlayerUpgrade>();
+		public List<string> boughtUpgrades = new List<string>();
 
-		public void AddUpgrade(EPlayerUpgrade upgrade)
+		public void AddUpgrade(string upgrade)
 		{
 			if (boughtUpgrades.Contains(upgrade)) return;
 			boughtUpgrades.Add(upgrade);
