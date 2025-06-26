@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -59,11 +60,16 @@ namespace PLAYERTWO.PlatformerProject
 		/// </summary>
 		public int coins { get; set; }
 
-		/// <summary>
-		/// Returns the time in which this level has been beaten.
-		/// </summary>
-		/// <value></value>
-		public float time { get; set; }
+        /// <summary>
+        /// Returns the collected coins in the level.
+        /// </summary>
+        public List<string> collectedCoins { get; set; }
+
+        /// <summary>
+        /// Returns the time in which this level has been beaten.
+        /// </summary>
+        /// <value></value>
+        public float time { get; set; }
 
 		/// <summary>
 		/// Returns the array of collected or non collected stars.
@@ -102,7 +108,8 @@ namespace PLAYERTWO.PlatformerProject
 		{
 			locked = data.locked;
 			coins = data.coins;
-			time = data.time;
+			collectedCoins = data.collectedCoins ?? new List<string>();
+            time = data.time;
 			stars = data.stars;
 			beatenTimes = data.beatenTimes;
 		}
@@ -156,6 +163,7 @@ namespace PLAYERTWO.PlatformerProject
 			{
 				locked = locked,
 				coins = coins,
+				collectedCoins = collectedCoins,
 				time = time,
 				stars = (bool[])stars.Clone(),
 				beatenTimes = beatenTimes,

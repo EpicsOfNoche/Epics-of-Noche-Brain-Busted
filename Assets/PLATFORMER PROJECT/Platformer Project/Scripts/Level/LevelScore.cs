@@ -100,7 +100,8 @@ namespace PLAYERTWO.PlatformerProject
 			if (m_level)
 				stars = m_level.GetStarts();
 
-			OnScoreLoaded.Invoke();
+			coins += Game.instance.GetCurrentLevel().coins;
+            OnScoreLoaded.Invoke();
 		}
 
 		protected virtual void Update()

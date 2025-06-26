@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -12,10 +13,13 @@ namespace PLAYERTWO.PlatformerProject
 		public string createdAt;
 		public string updatedAt;
 
-		/// <summary>
-		/// Returns a new instance of Game Data at runtime.
-		/// </summary>
-		public static GameData Create()
+		public int totalCoins;
+		public PlayerUpgradeStats playerUpgradeStats;
+
+        /// <summary>
+        /// Returns a new instance of Game Data at runtime.
+        /// </summary>
+        public static GameData Create()
 		{
 			return new GameData()
 			{
@@ -28,29 +32,24 @@ namespace PLAYERTWO.PlatformerProject
 						{
 							return new LevelData()
 							{
-								locked = level.locked,
+								collectedCoins = new List<string>(),
+                                locked = level.locked,
 								stars = new bool[Game.instance.starsPerLevel],
 							};
 						}
 					)
 					.ToArray(),
-			};
+
+				totalCoins = 0,
+                playerUpgradeStats = new PlayerUpgradeStats(),
+            };
 		}
 
-		/// <summary>
-		/// Returns the sum of Stars collected in all Levels.
-		/// </summary>
-		public virtual int TotalStars() =>
+        /// <summary>
+        /// Returns the sum of Stars collected in all Levels.
+        /// </summary>
+        public virtual int TotalStars() =>
 			levels.Aggregate(0, (acc, level) => acc + level.CollectedStars());
-
-		/// <summary>
-		/// Returns the sum of Coins collected in all levels.
-		/// </summary>
-		/// <returns></returns>
-		public virtual int TotalCoins()
-		{
-			return levels.Aggregate(0, (acc, level) => acc + level.coins);
-		}
 
 		/// <summary>
 		/// Returns a JSON string representation of this Game Data.

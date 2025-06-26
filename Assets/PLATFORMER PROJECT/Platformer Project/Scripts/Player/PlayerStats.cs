@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace PLAYERTWO.PlatformerProject
@@ -35,6 +36,9 @@ namespace PLAYERTWO.PlatformerProject
 
 		[Tooltip("The maximum speed the Player can reach when falling.")]
 		public float gravityTopSpeed = 50f;
+
+		[Header("Health")]
+		public int maxHealth = 3;
 
 		[Header("Pick'n Throw Stats")]
 		[Tooltip("If true, the Player can pick up objects.")]
@@ -577,5 +581,17 @@ namespace PLAYERTWO.PlatformerProject
 
 		[Tooltip("Force applied to the Player when dashing while grinding.")]
 		public float grindDashForce = 25f;
+	}
+
+    [System.Serializable]
+	public class PlayerUpgradeStats
+	{
+		public List<string> boughtUpgrades = new List<string>();
+
+		public void AddUpgrade(string upgrade)
+		{
+			if (boughtUpgrades.Contains(upgrade)) return;
+			boughtUpgrades.Add(upgrade);
+		}
 	}
 }
