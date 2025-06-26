@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3544748aecbf274880034cd189ef668, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_game: {fileID: 0}
 --- !u!114 &1712773581541265274
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,7 +101,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1000726228457877882}
         m_TargetAssemblyTypeName: Coin, Assembly-CSharp
         m_MethodName: Collect
-        m_Mode: 3
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

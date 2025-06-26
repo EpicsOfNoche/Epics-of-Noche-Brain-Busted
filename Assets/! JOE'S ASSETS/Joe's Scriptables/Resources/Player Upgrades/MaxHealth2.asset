@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4418a919cce983479d96ba1dfc26f6a, type: 3}
   m_Name: MaxHealth2
   m_EditorClassIdentifier: 
-  upgradeID: example_upgrade_id_600
+  upgradeID: maxHealth2
   upgradeName: Max Health++
   upgradeDescription: This upgrade gives you one more max health point.
   upgradeCost: 40

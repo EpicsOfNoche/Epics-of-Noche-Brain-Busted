@@ -5,17 +5,13 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public string ID { get; private set; }
-    private Collectable collectable;
 
-    private void Awake()
-    {
-        collectable = GetComponent<Collectable>();
-    }
+    public Game m_game => Game.instance;
 
     private void Start()
     {
         ID = GenerateID();
-        if (Game.instance.ToData().levels[Game.instance.GetCurrentLevelIndex()].collectedCoins.Contains(ID)) CollectCoin();
+        if (m_game.GetCurrentLevel().collectedCoins.Contains(ID)) CollectCoin();
     }
 
     private string GenerateID()
@@ -25,15 +21,15 @@ public class Coin : MonoBehaviour
     }
 
     //CALLED BY COLLECTABLE EVENT, DO NOT CALL DIRECTLY
-    public void Collect(int coinAmount)
+    public void Collect()
     {
-        var collectedCoinList = Game.instance.GetCurrentLevel().collectedCoins;
+        var collectedCoinList = m_game.GetCurrentLevel().collectedCoins;
         if (!collectedCoinList.Contains(ID)) collectedCoinList.Add(ID);
     }
 
     private void CollectCoin()
     {
-        gameObject.SetActive(false);
-        //collectable.Collect(FindAnyObjectByType<Player>(), true);
+        Destroy(gameObject);
+        //gameObject.SetActive(false);
     }
 }

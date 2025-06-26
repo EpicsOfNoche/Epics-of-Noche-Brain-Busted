@@ -1,7 +1,7 @@
 using PLAYERTWO.PlatformerProject;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Health_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Health Player Upgrade")]
+[CreateAssetMenu(fileName = "Health_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Upgrades/Health Player Upgrade")]
 public class Health_PlayerUpgradeSO : Base_PlayerUpgradeSO
 {
     [Header("Health Specific")]

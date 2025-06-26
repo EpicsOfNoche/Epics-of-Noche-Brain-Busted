@@ -47,6 +47,8 @@ public class UpgradeMenu : MonoBehaviour
     public void Show()
     {
         rectTransform.anchoredPosition = showPosition;
+
+        GetComponentsInChildren<UpgradeOption>()[0].buy_Button.Select();
     }
     public void Hide()
     {

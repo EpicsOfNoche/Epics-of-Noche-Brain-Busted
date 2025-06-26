@@ -1,7 +1,7 @@
 using PLAYERTWO.PlatformerProject;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Glider_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Glider Player Upgrade")]
+[CreateAssetMenu(fileName = "Glider_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Upgrades/Glider Player Upgrade")]
 public class Glider_PlayerUpgradeSO : Base_PlayerUpgradeSO
 {
     [Header("Glider Specific")]

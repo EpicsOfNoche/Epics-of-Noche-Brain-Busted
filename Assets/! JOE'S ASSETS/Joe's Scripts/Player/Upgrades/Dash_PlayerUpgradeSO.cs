@@ -1,7 +1,7 @@
 using PLAYERTWO.PlatformerProject;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Dash_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Dash Player Upgrade")]
+[CreateAssetMenu(fileName = "Dash_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Upgrades/Dash Player Upgrade")]
 public class Dash_PlayerUpgradeSO : Base_PlayerUpgradeSO
 {
     [Header("Dash Specific")]

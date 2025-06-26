@@ -7,7 +7,7 @@ namespace PLAYERTWO.PlatformerProject
 	public class Health : MonoBehaviour
 	{
 		public int initial = 3;
-		public int max = 3;
+		public int max => PlayerStatsManager.instance.current.maxHealth;
 		public float coolDown = 1f;
 
 		/// <summary>

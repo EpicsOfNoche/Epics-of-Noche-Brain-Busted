@@ -1,7 +1,7 @@
 using PLAYERTWO.PlatformerProject;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "AirDash_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Air Dash Player Upgrade")]
+[CreateAssetMenu(fileName = "AirDash_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Upgrades/Air Dash Player Upgrade")]
 public class AirDash_PlayerUpgradeSO : Base_PlayerUpgradeSO
 {
     [Header("Air Dash Specific")]

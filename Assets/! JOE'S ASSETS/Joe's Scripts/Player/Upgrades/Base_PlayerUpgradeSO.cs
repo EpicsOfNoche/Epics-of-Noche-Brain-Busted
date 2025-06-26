@@ -23,6 +23,7 @@ public abstract class Base_PlayerUpgradeSO : ScriptableObject
             return;
         }
 
+        Debug.Log($"Applying upgrade: {upgradeName} with ID: {upgradeID}");
         Final_ApplyUpgrade(stats);
     }
 

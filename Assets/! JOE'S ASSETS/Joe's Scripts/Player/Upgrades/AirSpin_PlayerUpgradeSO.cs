@@ -1,7 +1,7 @@
 using PLAYERTWO.PlatformerProject;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "AirSpin_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Air Spin Player Upgrade")]
+[CreateAssetMenu(fileName = "AirSpin_PlayerUpgrade", menuName = "PLAYER TWO/Platformer Project/Player/Upgrades/Air Spin Player Upgrade")]
 public class AirSpin_PlayerUpgradeSO : Base_PlayerUpgradeSO
 {
     [Header("Air Spin Specific")]
