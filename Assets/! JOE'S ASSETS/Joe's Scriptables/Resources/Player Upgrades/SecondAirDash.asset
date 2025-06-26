@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 295f506caaa89a141979b0ca3fa21457, type: 3}
+  m_Name: SecondAirDash
+  m_EditorClassIdentifier: 
+  upgradeID: airDash1
+  upgradeName: Second Air Dash
+  upgradeDescription: Gives you a second air dash
+  upgradeCost: 30
+  upgradeIcon: {fileID: 21300000, guid: a0fc8ecfd214553419fc72a1307340f7, type: 3}
+  allowedAirDashesIncrease: 1

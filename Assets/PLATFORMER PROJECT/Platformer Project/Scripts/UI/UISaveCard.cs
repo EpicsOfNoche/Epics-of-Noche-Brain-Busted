@@ -129,7 +129,7 @@ namespace PLAYERTWO.PlatformerProject
 				m_data = data;
 				retries.text = data.retries.ToString(retriesFormat);
 				stars.text = data.TotalStars().ToString(starsFormat);
-				coins.text = data.TotalCoins().ToString(coinsFormat);
+				coins.text = data.totalCoins.ToString(coinsFormat);
 				createdAt.text = System
 					.DateTime.Parse(data.createdAt)
 					.ToLocalTime()

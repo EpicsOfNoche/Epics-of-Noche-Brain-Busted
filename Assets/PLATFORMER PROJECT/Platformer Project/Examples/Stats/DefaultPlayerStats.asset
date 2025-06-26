@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dfc96ef0b0170f143920b9fbe94b091a, type: 3}
-  m_Name: RegularPlayerStats
+  m_Name: DefaultPlayerStats
   m_EditorClassIdentifier: 
   snapForce: 15
   snapToPathForce: 10
@@ -19,6 +19,7 @@ MonoBehaviour:
   gravity: 49
   fallGravity: 65
   gravityTopSpeed: 50
+  maxHealth: 3
   canPickUp: 1
   canPickUpOnAir: 0
   canJumpWhileHolding: 1

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4418a919cce983479d96ba1dfc26f6a, type: 3}
+  m_Name: MaxHealth3
+  m_EditorClassIdentifier: 
+  upgradeID: maxHealth3
+  upgradeName: Max Health+++
+  upgradeDescription: This upgrade gives you one more max health point.
+  upgradeCost: 60
+  upgradeIcon: {fileID: 21300000, guid: dfb847232b198c842b4716c39acbd9bd, type: 3}
+  maxHealthIncrease: 1

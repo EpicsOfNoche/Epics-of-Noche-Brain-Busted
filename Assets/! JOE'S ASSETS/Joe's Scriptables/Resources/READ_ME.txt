@@ -1,0 +1,2 @@
+KEEP THE SCRIPTABLE OBJECTS OF THE PLAYER UPGRADES, IN THIS FOLDER (Resources), OR THE UPGRADE SYSTEM WON'T WORK.
+Also, don't rename the folder file (Player Upgrades)!!!
