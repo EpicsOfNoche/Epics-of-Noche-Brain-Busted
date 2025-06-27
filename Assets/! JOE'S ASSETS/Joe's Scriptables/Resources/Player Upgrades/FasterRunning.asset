@@ -16,6 +16,6 @@ MonoBehaviour:
   upgradeName: Lightning Boots
   upgradeDescription: You run much faster!
   upgradeCost: 100
-  upgradeIcon: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  upgradeIcon: {fileID: 21300000, guid: da37f4a0cb4bcfe4aa16aeca6c0b3751, type: 3}
   runAccelerationIncrease: 2
   runTopSpeedIncrease: 10

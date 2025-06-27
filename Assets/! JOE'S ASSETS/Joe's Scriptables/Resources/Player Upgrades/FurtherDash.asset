@@ -16,6 +16,6 @@ MonoBehaviour:
   upgradeName: Hurricane Dash
   upgradeDescription: You can dash twice as far.
   upgradeCost: 300
-  upgradeIcon: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  upgradeIcon: {fileID: 21300000, guid: 3a75cc2ef92feef4ca13b646e805b116, type: 3}
   dashDurationIncrease: 0.2
   dashForceIncrease: 10

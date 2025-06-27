@@ -16,5 +16,5 @@ MonoBehaviour:
   upgradeName: Triple Jump
   upgradeDescription: You can now jump three times!
   upgradeCost: 400
-  upgradeIcon: {fileID: 21300000, guid: f2562a0917de7d64cad9510f7d370192, type: 3}
+  upgradeIcon: {fileID: 21300000, guid: e67fc33cbba2c5440b79c105e3958fed, type: 3}
   maxJumpsIncrease: 1

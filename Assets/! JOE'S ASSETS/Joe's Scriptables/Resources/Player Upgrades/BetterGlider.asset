@@ -16,6 +16,6 @@ MonoBehaviour:
   upgradeName: Tsunami Glider
   upgradeDescription: Your glider falls slower and rotates faster.
   upgradeCost: 100
-  upgradeIcon: {fileID: 21300000, guid: f2562a0917de7d64cad9510f7d370192, type: 3}
+  upgradeIcon: {fileID: 21300000, guid: 65952dfa3aec46f49b2749a2381ea400, type: 3}
   glideFallSpeedDecrease: 0.5
   glidingRotationSpeedIncrease: 50

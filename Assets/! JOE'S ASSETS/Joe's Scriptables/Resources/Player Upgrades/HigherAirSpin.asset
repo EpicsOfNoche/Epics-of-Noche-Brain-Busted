@@ -16,6 +16,6 @@ MonoBehaviour:
   upgradeName: Storm Spin
   upgradeDescription: Your air spin attacks launch you higher up.
   upgradeCost: 200
-  upgradeIcon: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  upgradeIcon: {fileID: 21300000, guid: adec3ad27dfe56f40bae4fc70100e237, type: 3}
   airSpinUpwardForceIncrease: 5
   maxAirSpinsIncrease: 0

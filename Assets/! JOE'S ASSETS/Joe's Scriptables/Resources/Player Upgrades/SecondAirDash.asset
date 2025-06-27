@@ -16,5 +16,5 @@ MonoBehaviour:
   upgradeName: Thunder step
   upgradeDescription: You gain a second air dash.
   upgradeCost: 200
-  upgradeIcon: {fileID: 21300000, guid: f5dd2019ce32f64458136cfb2041d1d0, type: 3}
+  upgradeIcon: {fileID: 21300000, guid: 53ab433aad85b944a90cb1abf25ff4f9, type: 3}
   allowedAirDashesIncrease: 1
