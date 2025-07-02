@@ -29,6 +29,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/! JOE'S ASSETS/Joe's Scenes/Level 2-3.unity
     guid: fa5adbbfd6cf161498ad0e35e9fc44fd
+  - enabled: 1
+    path: Assets/! JOE'S ASSETS/Joe's Scenes/Level 3-1.unity
+    guid: fb9b85890c8133442883b7323b5e5579
+  - enabled: 1
+    path: Assets/! JOE'S ASSETS/Joe's Scenes/Level 3-2.unity
+    guid: 762d6c7fb664a5046aa79e8cb7f7f126
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
