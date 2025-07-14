@@ -17,5 +17,5 @@ MonoBehaviour:
   upgradeDescription: You run much faster!
   upgradeCost: 100
   upgradeIcon: {fileID: 21300000, guid: da37f4a0cb4bcfe4aa16aeca6c0b3751, type: 3}
-  runAccelerationIncrease: 2
-  runTopSpeedIncrease: 10
+  runAccelerationIncrease: 1
+  runTopSpeedIncrease: 5
