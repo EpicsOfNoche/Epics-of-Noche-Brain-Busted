@@ -11,11 +11,6 @@ public class Coin : MonoBehaviour
     private void Start()
     {
         ID = GenerateID();
-
-        Debug.Log(m_game);
-        Debug.Log(m_game.GetCurrentLevel());
-        Debug.Log(m_game.GetCurrentLevel().collectedCoins);
-
         if (m_game.GetCurrentLevel().collectedCoins.Contains(ID)) CollectCoin();
     }
 
