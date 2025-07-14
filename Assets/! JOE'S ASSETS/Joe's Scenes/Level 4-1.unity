@@ -45516,14 +45516,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1413042914}
     m_Modifications:
-    - target: {fileID: 3652379756442723319, guid: 1311f483dfc239946b216b6927e28db2, type: 3}
-      propertyPath: waypoints.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3652379756442723319, guid: 1311f483dfc239946b216b6927e28db2, type: 3}
-      propertyPath: 'waypoints.Array.data[0]'
-      value: 
-      objectReference: {fileID: 1700091976}
     - target: {fileID: 8558112672928523328, guid: 1311f483dfc239946b216b6927e28db2, type: 3}
       propertyPath: m_Name
       value: Moving Platform
