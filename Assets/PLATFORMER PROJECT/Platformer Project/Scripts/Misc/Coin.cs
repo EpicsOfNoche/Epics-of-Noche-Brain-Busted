@@ -11,13 +11,18 @@ public class Coin : MonoBehaviour
     private void Start()
     {
         ID = GenerateID();
+
+        Debug.Log(m_game);
+        Debug.Log(m_game.GetCurrentLevel());
+        Debug.Log(m_game.GetCurrentLevel().collectedCoins);
+
         if (m_game.GetCurrentLevel().collectedCoins.Contains(ID)) CollectCoin();
     }
 
     private string GenerateID()
     {
         var pos = transform.position;
-        return $"{gameObject.name}_{pos.x:F2}_{pos.y:F2}_{pos.z:F2}";
+        return $"{gameObject.name}_{m_game.GetCurrentLevel().name}_{pos.x:F2}_{pos.y:F2}_{pos.z:F2}";
     }
 
     //CALLED BY COLLECTABLE EVENT, DO NOT CALL DIRECTLY
