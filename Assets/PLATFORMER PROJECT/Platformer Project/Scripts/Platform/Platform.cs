@@ -15,6 +15,7 @@ namespace PLAYERTWO.PlatformerProject
 		protected virtual void Awake()
 		{
 			tag = GameTags.Platform;
+			CacheTransform();
 		}
 
 		protected virtual void CacheTransform()

@@ -34,7 +34,9 @@ namespace PLAYERTWO.PlatformerProject
 
 		public override void PlatformUpdate()
 		{
-			CacheTransform();
+            if (waypoints.waypoints.Count == 0) return;
+
+            CacheTransform();
 			HandleWaypoints();
 			HandleAttachedTransforms();
 		}
