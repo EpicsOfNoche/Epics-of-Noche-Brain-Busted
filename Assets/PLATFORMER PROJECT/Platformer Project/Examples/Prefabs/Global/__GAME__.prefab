@@ -205,6 +205,50 @@ MonoBehaviour:
     nextScene: MainMenu
     firstTimeNextScene: 
     exitScene: 
+  - name: Level 5-1
+    description: 
+    image: {fileID: 21300000, guid: d234024f66c86a6479b1ca19010c84fd, type: 3}
+    locked: 1
+    requiredStars: 27
+    scene: Level 5-1
+    firstTimeScene: 
+    unlockNextLevel: 0
+    nextScene: MainMenu
+    firstTimeNextScene: 
+    exitScene: 
+  - name: Level 5-2
+    description: 
+    image: {fileID: 21300000, guid: d234024f66c86a6479b1ca19010c84fd, type: 3}
+    locked: 1
+    requiredStars: 29
+    scene: Level 5-2
+    firstTimeScene: 
+    unlockNextLevel: 0
+    nextScene: MainMenu
+    firstTimeNextScene: 
+    exitScene: 
+  - name: Level 5-3
+    description: 
+    image: {fileID: 21300000, guid: d234024f66c86a6479b1ca19010c84fd, type: 3}
+    locked: 1
+    requiredStars: 31
+    scene: Level 5-3
+    firstTimeScene: 
+    unlockNextLevel: 0
+    nextScene: MainMenu
+    firstTimeNextScene: 
+    exitScene: 
+  - name: Credits
+    description: 
+    image: {fileID: 21300000, guid: d234024f66c86a6479b1ca19010c84fd, type: 3}
+    locked: 1
+    requiredStars: 32
+    scene: Credits
+    firstTimeScene: 
+    unlockNextLevel: 0
+    nextScene: MainMenu
+    firstTimeNextScene: 
+    exitScene: 
 --- !u!114 &2298921648025393660
 MonoBehaviour:
   m_ObjectHideFlags: 0
