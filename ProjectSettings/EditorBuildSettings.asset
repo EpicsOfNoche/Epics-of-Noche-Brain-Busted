@@ -47,6 +47,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/! JOE'S ASSETS/Joe's Scenes/Level 4-3.unity
     guid: d45493e815e9f3d47aa8ed6265585d59
+  - enabled: 1
+    path: Assets/! JOE'S ASSETS/Joe's Scenes/Level 5-1.unity
+    guid: 17d30050873ebcf4ab0a2d3c0ca17dd1
+  - enabled: 1
+    path: Assets/! JOE'S ASSETS/Joe's Scenes/Level 5-2.unity
+    guid: 3b5d685e7782cc243a44deb913af8684
+  - enabled: 1
+    path: Assets/! JOE'S ASSETS/Joe's Scenes/Level 5-3.unity
+    guid: 77392106581b31948a85a31c47a775ed
+  - enabled: 1
+    path: Assets/! JOE'S ASSETS/Joe's Scenes/Ending.unity
+    guid: 455834da926900e4bb420b859ecfe72c
+  - enabled: 1
+    path: Assets/! JOE'S ASSETS/Joe's Scenes/Lighthouse of Lamentation.unity
+    guid: 0d4d49eb18dd4f740bc2cefdaaf5acce
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
