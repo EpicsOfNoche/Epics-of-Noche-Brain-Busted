@@ -40233,7 +40233,8 @@ PrefabInstance:
     - target: {fileID: 273281685853183525, guid: f2e2a0e9c1442b64a8a9c439534d7ac0, type: 3}
       propertyPath: text
       value: Epics of Noche is an 8 book series available to read, for free, online.
-        This game spinoff was started on June 10th 2025 and finished on ???
+        The book series, artwork, and this game spinoff were all created by Joseph
+        Linder. This game was started on June 10th 2025 and finished on ???.
       objectReference: {fileID: 0}
     - target: {fileID: 273281685853183527, guid: f2e2a0e9c1442b64a8a9c439534d7ac0, type: 3}
       propertyPath: m_Name
