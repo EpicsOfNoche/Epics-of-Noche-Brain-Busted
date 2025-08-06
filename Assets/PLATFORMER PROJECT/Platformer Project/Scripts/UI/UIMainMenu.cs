@@ -169,5 +169,10 @@ namespace PLAYERTWO.PlatformerProject
 				_ => false,
 			};
 		}
+
+		public virtual void QuitGame()
+		{
+			Application.Quit();
+		}
 	}
 }
